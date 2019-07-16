@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="15dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="40dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/title"
+            android:textAlignment="textStart"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            tools:text="Name:"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:fontFamily="@font/raleway"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/value"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            tools:text="Tukmen Mogoria"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:fontFamily="@font/lato"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
